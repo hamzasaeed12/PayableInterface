@@ -1,2 +1,2 @@
-# PayableInterface
+# Billing System
 We will have a Payable class which will serve as an interface. This abstract class declares a method used for determining the payment amount of an invoice or the salary of an employee. Invoice  and Employee will implement the Payable interface. However, since it is possible for an employee to be paid hourly or salary, we will have two classes HourlyEmployee and SalaryEmployee that inherit from their parent class Employee. Ultimately, Tesco Limited will be able to use the application to create records of their employees and calculate their invoices or salary based on inputed data.
